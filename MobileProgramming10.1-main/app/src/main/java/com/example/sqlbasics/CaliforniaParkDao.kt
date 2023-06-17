@@ -15,9 +15,7 @@
  */
 package com.example.sqlbasics
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface CaliforniaParkDao {
@@ -25,4 +23,8 @@ interface CaliforniaParkDao {
     suspend fun insertAll(parks: List<CaliforniaPark>)
     @Query("SELECT * FROM park")
     suspend fun getAll(): List<CaliforniaPark>
+    @Update
+    suspend fun updateNote(parks: CaliforniaPark)
+    @Delete
+    suspend fun deleteNote(note: CaliforniaPark)
 }
