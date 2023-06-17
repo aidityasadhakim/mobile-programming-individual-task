@@ -16,6 +16,15 @@
 -->
 <resources>
     <string-array name="words">
+        <item>kursi</item>
+        <item>meja</item>
+        <item>laptop</item>
+        <item>vas</item>
+        <item>foto</item>
+        <item>botol</item>
+        <item>gelas</item>
+        <item>jam</item>
+        <item>hp</item>
         <item>aargh</item>
         <item>about</item>
         <item>acidic</item>
@@ -216,6 +225,7 @@
         <item>taxi</item>
         <item>tidy</item>
         <item>time</item>
+        <item>tyas</item>
         <item>together</item>
         <item>tourist</item>
         <item>trailer</item>
