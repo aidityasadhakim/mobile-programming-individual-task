@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity() {
         val descriptionTextView = cardView.findViewById<TextView>(R.id.descriptionTextView)
 
         // Mengatur judul kartu
-        titleTextView.text = "Apa Kartu itu?"
+        titleTextView.text = "Ini Kartu"
 
         // Mengatur deskripsi kartu
-        descriptionTextView.text = "Lembaran kecil yang terbuat dari bahan seperti kertas atau plastik yang digunakan untuk berbagai tujuan."
+        descriptionTextView.text = "Adalah sebuah kartu yang berkartu kartu di dalam sebuah kartu yang terdapat kartu"
 
         // Mengatur warna latar belakang kartu secara acak
         cardView.setCardBackgroundColor(getRandomColor())
@@ -57,10 +57,6 @@ class MainActivity : AppCompatActivity() {
         val colors = arrayOf(
             Color.RED,
             Color.GREEN,
-            Color.BLUE,
-            Color.YELLOW,
-            Color.CYAN,
-            Color.MAGENTA
         )
         // Memilih indeks warna secara acak
         val randomIndex = (0 until colors.size).random()
