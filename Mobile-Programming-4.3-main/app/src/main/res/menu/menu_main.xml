@@ -3,11 +3,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_item1"
-        android:title="Option 1"/>
+        android:title="Pilihan Pertama"/>
     <item
         android:id="@+id/menu_item2"
-        android:title="Option 2"/>
+        android:title="Pilihan Kedua"/>
     <item
         android:id="@+id/menu_item3"
-        android:title="Option 3"/>
+        android:title="Pilihan Ketiga"/>
 </menu>
