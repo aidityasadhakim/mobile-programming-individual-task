@@ -25,6 +25,26 @@
         android:text="Buka Google"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/openUrlButton"
+        android:layout_marginBottom="16dp"
         android:onClick="openGoogle" />
+
+    <Button
+        android:id="@+id/openInstagramButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openGoogleButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openInstagram"
+        android:layout_marginBottom="16dp"
+        android:text="Buka Instagram" />
+
+    <Button
+        android:id="@+id/openFacebookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openInstagramButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openFacebook"
+        android:text="Buka Facebook" />
 
 </RelativeLayout>

@@ -23,4 +23,16 @@ class MainActivity : AppCompatActivity() {
         intent.data = Uri.parse("https://www.google.com")
         startActivity(intent)
     }
+
+    fun openInstagram(view: View){
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse("https://www.instagram.com")
+        startActivity(intent)
+    }
+
+    fun openFacebook(view: View){
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse("https://www.facebook.com")
+        startActivity(intent)
+    }
 }
