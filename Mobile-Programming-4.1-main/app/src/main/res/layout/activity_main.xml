@@ -18,7 +18,7 @@
         android:layout_marginTop="72dp"
         android:clickable="true"
         android:onClick="onImageClick"
-        android:src="@drawable/image1" />
+        android:src="@drawable/Picture1" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,6 +31,6 @@
         android:layout_marginBottom="196dp"
         android:clickable="true"
         android:onClick="onImageClick"
-        android:src="@drawable/image2" />
+        android:src="@drawable/logouper" />
 
 </RelativeLayout>
